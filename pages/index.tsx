@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Index() {
   return (
     <>
-    <section className='lg:h-full relative h-full lg:py-[170px] py-10 bg-redPrimary'>
+    <section className="lg:h-full relative h-full lg:py-[170px] py-10 bg-redPrimary">
             <div className="w-full flex items-center justify-center lg:justify-center">
             <Image
             className=""
@@ -15,7 +15,7 @@ export default function Index() {
         />
         </div>
         <div className="w-full flex justify-center mt-[60px]">
-          <h1 className="ml-[12px] lg:ml-0 text-start lg:text-center font-dynapuff font-bold text-[40px] lg:text-[80px] lg:w-[696px] w-[360px] lg:leading-[88px]">Unleash Alfath's Digital Magic</h1>
+          <h1 className="ml-[12px] lg:ml-0 text-start lg:text-center font-dynapuff font-bold text-[40px] lg:text-[80px] lg:w-[696px] w-[360px] lg:leading-[88px]">Unleash Alfaths Digital Magic</h1>
         </div>
 
         <div className="lg:w-full flex flex-wrap justify-center lg:flex lg:justify-center mt-[60px]">
@@ -67,7 +67,7 @@ ready to experience the enchantment of his digital sorcery?
         alt=""
         />
         <h1 className="font-dynapuff font-bold text-[32px] text-greyYoung mt-[34px]">UI/UX Design</h1>
-        <p className="font-golos font-regular text-[16px] leading-[24px] text-greyParf lg:w-[304px] mt-[15px]">Explore Alfath's captivating designs, 
+        <p className="font-golos font-regular text-[16px] leading-[24px] text-greyParf lg:w-[304px] mt-[15px]">Explore Alfaths captivating designs, 
 where strategy and imagination collide 
 to conjure bewitching visuals and 
 mesmerizing user interfaces.</p>
@@ -81,7 +81,7 @@ mesmerizing user interfaces.</p>
         alt=""
         />
         <h1 className="font-dynapuff font-bold text-[32px] text-greyYoung mt-[34px]">UI/UX Design</h1>
-        <p className="font-golos font-regular text-[16px] leading-[24px] text-greyParf lg:w-[304px] mt-[15px]">Explore Alfath's captivating designs, 
+        <p className="font-golos font-regular text-[16px] leading-[24px] text-greyParf lg:w-[304px] mt-[15px]">Explore Alfaths captivating designs, 
 where strategy and imagination collide 
 to conjure bewitching visuals and 
 mesmerizing user interfaces.</p>
@@ -92,12 +92,12 @@ mesmerizing user interfaces.</p>
     <section className="lg:h-full h-full lg:py-[170px] py-10 bg-black">
           <div className="flex flex-wrap justify-center">
             <div className="lg:mr-[20px] py-[172px] px-[40px] bg-blackCard">
-        <p className="font-golos font-regular text-[20px] leading-[24px] text-greyParf lg:w-[410px] mt-[15px] text-center">Alfath magically transformed our product’s user experience into something truly enchanting. His cutting-edge designs 
+        <p className="font-golos font-regular text-[20px] leading-[24px] text-greyParf lg:w-[410px] mt-[15px] text-center">Alfath magically transformed our products user experience into something truly enchanting. His cutting-edge designs 
 exceeded all expectations.</p>
 <h1 className="font-golos font-regular text-[14px] text-greyYoung mt-[34px] text-center uppercase">UI/UX Design</h1>
             </div>
             <div className="lg:mr-[20px] lg:mt-0 mt-[40px] py-[172px] px-[40px] bg-blackCard">
-        <p className="font-golos font-regular text-[20px] leading-[24px] text-greyParf lg:w-[410px] mt-[15px] text-center">Alfath magically transformed our product’s user experience into something truly enchanting. His cutting-edge designs 
+        <p className="font-golos font-regular text-[20px] leading-[24px] text-greyParf lg:w-[410px] mt-[15px] text-center">Alfath magically transformed our products user experience into something truly enchanting. His cutting-edge designs 
 exceeded all expectations.</p>
 <h1 className="font-golos font-regular text-[14px] text-greyYoung mt-[34px] text-center uppercase">UI/UX Design</h1>
             </div>
@@ -117,7 +117,7 @@ brilliance.</h1>
       </div>
       <div className="flex flex-wrap justify-center"> 
       <p className="lg:w-[500px] w-[350px] lg:text-center text-greyYoung font-golos font-regular text-[12px] lg:text-[16px] mt-[40px]">
-      Let's embark on a magical journey together and watch Alfath's digital sorcery elevate your projects. Connect with him through social media or get in touch now.
+      Lets embark on a magical journey together and watch Alfaths digital sorcery elevate your projects. Connect with him through social media or get in touch now.
           </p>
       </div>
       
@@ -128,7 +128,7 @@ brilliance.</h1>
 
     <section className="lg:h-full h-full lg:py-[50px] py-10 bg-black">
       <div className="w-full flex flex-wrap justify-center lg:justify-center">
-          <h1 className="text-greyYoung lg:text-center text-center lg:w-[761px] w-[350px] lg:text-[16px] text-[12px] font-golos font-regular">©2023 Alfath's Magic.</h1>
+          <h1 className="text-greyYoung lg:text-center text-center lg:w-[761px] w-[350px] lg:text-[16px] text-[12px] font-golos font-regular">©2023 Alfaths Magic.</h1>
       </div>
     </section>
     </>
