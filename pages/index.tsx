@@ -1,118 +1,136 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import React from "react"
+import Image from "next/image"
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+export default function Index() {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">pages/index.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
+    <>
+    <section className='lg:h-full relative h-full lg:py-[170px] py-10 bg-redPrimary'>
+            <div className="w-full flex items-center justify-center lg:justify-center">
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+            className=""
+        width={120}
+        height={120}
+        src="/iconalfath.svg"
+        alt=""
         />
+        </div>
+        <div className="w-full flex justify-center mt-[60px]">
+          <h1 className="ml-[12px] lg:ml-0 text-start lg:text-center font-dynapuff font-bold text-[40px] lg:text-[80px] lg:w-[696px] w-[360px] lg:leading-[88px]">Unleash Alfath's Digital Magic</h1>
+        </div>
+
+        <div className="lg:w-full flex flex-wrap justify-center lg:flex lg:justify-center mt-[60px]">
+          <button className="lg:mr-[10px] bg-blackButton py-[15px] px-[120px] lg:py-[10px] lg:px-[20px] font-golos font-regular text-white text-[16px]">View Portfolio</button>
+          <button className="text-blackButton py-[15px] px-[127px] mt-[20px] lg:mt-0 lg:py-[10px] lg:px-[20px] font-golos font-regular bg-white text-[16px]">Get in Touch</button>
+        </div>
+    </section>
+
+    <section className="lg:h-full h-full lg:py-[170px] py-10 bg-black">
+      <div className="w-full flex flex-wrap justify-center lg:justify-center lg:ml-[-130px]">
+          <h1 className="text-white text-start lg:w-[761px] w-[350px] lg:text-[48px] text-[24px] font-dynapuff font-bold">Meet Alfath: The Design Wizard</h1>
       </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+      <div className="flex flex-wrap justify-center lg:ml-[-430px]"> 
+      <p className="lg:w-[584px] w-[350px] text-white font-golos font-regular text-[12px] lg:text-[20px] mt-[40px]">Alfath Aditya, a phenomenal Frontend Developer and UI/UX Designer, creates pixel-perfect visuals and seamless user 
+             experiences. His unorthodox design approach joins beauty with 
+             functionality, making every project an enchanting digital 
+             adventure.
           </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
       </div>
-    </main>
+      <div className="flex flex-wrap justify-center lg:ml-[-430px]"> 
+      <p className="lg:w-[584px] w-[350px] text-white font-golos font-regular text-[12px] lg:text-[20px] mt-[40px]">With a vast skill set in frontend development and UI/UX design, 
+Alfath weaves code and design into spellbinding masterpieces. 
+His work casts a mesmerizing spell on users, leaving them 
+captivated and craving more.
+          </p>
+      </div>
+      <div className="flex flex-wrap justify-center lg:ml-[-430px]"> 
+      <p className="lg:w-[584px] w-[350px] text-white font-golos font-regular text-[12px] lg:text-[20px] mt-[40px]">From humble beginnings to tech titan status, Alfath has the 
+magical touch that catapults digital dreams into reality. Are you 
+ready to experience the enchantment of his digital sorcery?
+          </p>
+      </div>
+    </section>
+
+    <section className="lg:h-full h-full lg:py-[312px] py-[150px] bg-bgimage-one bg-black grayscale bg-no-repeat bg-cover">
+    <div className="w-full flex flex-wrap justify-center lg:justify-center">
+          <h1 className="text-white lg:w-[629px] w-[350px] text-center lg:text-[80px] text-[24px] font-dynapuff font-bold leading-[88px]">Conjuring Pixel Perfection.</h1>
+      </div>
+    </section>
+
+    <section className="lg:h-full h-full lg:py-[170px] py-10 bg-black">
+          <div className="flex flex-wrap justify-center">
+            <div className="lg:mr-[20px]">
+            <Image
+            className=""
+        width={490}
+        height={490}
+        src="/illustration1.svg"
+        alt=""
+        />
+        <h1 className="font-dynapuff font-bold text-[32px] text-greyYoung mt-[34px]">UI/UX Design</h1>
+        <p className="font-golos font-regular text-[16px] leading-[24px] text-greyParf lg:w-[304px] mt-[15px]">Explore Alfath's captivating designs, 
+where strategy and imagination collide 
+to conjure bewitching visuals and 
+mesmerizing user interfaces.</p>
+            </div>
+            <div className="lg:mt-0 mt-[40px]">
+            <Image
+            className=""
+        width={490}
+        height={490}
+        src="/illustration1.svg"
+        alt=""
+        />
+        <h1 className="font-dynapuff font-bold text-[32px] text-greyYoung mt-[34px]">UI/UX Design</h1>
+        <p className="font-golos font-regular text-[16px] leading-[24px] text-greyParf lg:w-[304px] mt-[15px]">Explore Alfath's captivating designs, 
+where strategy and imagination collide 
+to conjure bewitching visuals and 
+mesmerizing user interfaces.</p>
+            </div>
+          </div>
+    </section>
+
+    <section className="lg:h-full h-full lg:py-[170px] py-10 bg-black">
+          <div className="flex flex-wrap justify-center">
+            <div className="lg:mr-[20px] py-[172px] px-[40px] bg-blackCard">
+        <p className="font-golos font-regular text-[20px] leading-[24px] text-greyParf lg:w-[410px] mt-[15px] text-center">Alfath magically transformed our product’s user experience into something truly enchanting. His cutting-edge designs 
+exceeded all expectations.</p>
+<h1 className="font-golos font-regular text-[14px] text-greyYoung mt-[34px] text-center uppercase">UI/UX Design</h1>
+            </div>
+            <div className="lg:mr-[20px] lg:mt-0 mt-[40px] py-[172px] px-[40px] bg-blackCard">
+        <p className="font-golos font-regular text-[20px] leading-[24px] text-greyParf lg:w-[410px] mt-[15px] text-center">Alfath magically transformed our product’s user experience into something truly enchanting. His cutting-edge designs 
+exceeded all expectations.</p>
+<h1 className="font-golos font-regular text-[14px] text-greyYoung mt-[34px] text-center uppercase">UI/UX Design</h1>
+            </div>
+          </div>
+    </section>
+
+    <section className="lg:h-full h-full lg:py-[312px] py-[150px] bg-bgimage-two bg-black grayscale bg-no-repeat bg-center bg-cover">
+    <div className="w-full flex flex-wrap justify-center lg:justify-center">
+          <h1 className="text-white lg:w-[733px] w-[350px] text-center lg:text-[80px] text-[24px] font-dynapuff font-bold leading-[88px]">Get bewitched by 
+brilliance.</h1>
+      </div>
+    </section>
+
+    <section className="lg:h-full h-full lg:py-[170px] py-10 bg-black">
+      <div className="w-full flex flex-wrap justify-center lg:justify-center">
+          <h1 className="text-greyYoung lg:text-center text-start lg:w-[761px] w-[350px] lg:text-[48px] text-[24px] font-dynapuff font-bold">Ready to be Enchanted?</h1>
+      </div>
+      <div className="flex flex-wrap justify-center"> 
+      <p className="lg:w-[500px] w-[350px] lg:text-center text-greyYoung font-golos font-regular text-[12px] lg:text-[16px] mt-[40px]">
+      Let's embark on a magical journey together and watch Alfath's digital sorcery elevate your projects. Connect with him through social media or get in touch now.
+          </p>
+      </div>
+      
+      <div className="flex flex-wrap justify-center mt-[40px]">
+      <button className="bg-greyParf text-black py-[10px] px-[15px] font-golos font-regular ">Contact Alfath</button>
+      </div>
+    </section>
+
+    <section className="lg:h-full h-full lg:py-[50px] py-10 bg-black">
+      <div className="w-full flex flex-wrap justify-center lg:justify-center">
+          <h1 className="text-greyYoung lg:text-center text-center lg:w-[761px] w-[350px] lg:text-[16px] text-[12px] font-golos font-regular">©2023 Alfath's Magic.</h1>
+      </div>
+    </section>
+    </>
   )
 }
