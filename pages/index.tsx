@@ -128,7 +128,7 @@ brilliance.</h1>
 
     <section className="lg:h-full h-full lg:py-[50px] py-10 bg-redPrimary">
       <div className="w-full flex flex-wrap justify-center lg:justify-center">
-          <h1 className="text-greyYoung lg:text-center text-center lg:w-[761px] w-[350px] lg:text-[16px] text-[12px] font-golos font-regular">©2023 Alfaths Magic.</h1>
+          <h1 className="text-white lg:text-center text-center lg:w-[761px] w-[350px] lg:text-[16px] text-[12px] font-golos font-regular">©2023 Alfaths Magic.</h1>
       </div>
     </section>
     </>
